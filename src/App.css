@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Elaine";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/Elaine_D02/Elaine_D02.eot'); /* IE9 Compat Modes */
+  src: local("Elaine"),
+    url('./font/Elaine_D02/Elaine_D02.eot?#iefix") format("embedded-opentype'),
+    /* IE6-IE8 */ url('./font/Elaine_D02/Elaine_D02.woff') format("woff"),
+    /* Modern Browsers */ url('./font/Elaine_D02/Elaine_D02.ttf')
+      format("truetype"),
+    /* Safari, Android, iOS */ url('./font/Elaine_D02/Elaine_D02.svg#OpenSans')
+      format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Azo-sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/Azo-Sans-Bold/Azo-Sans-Bold.eot'); /* IE9 Compat Modes */
+  src: local("Azo-sans"),
+    url('./font/Azo-Sans-Bold/Azo-Sans-Bold.eot'),
+    /* IE6-IE8 */ url('./font/Azo-Sans-Bold/Azo-Sans-Bold.woff') format("woff"),
+    /* Modern Browsers */ url('./font/Azo-Sans-Bold/Azo-Sans-Bold.ttf')
+      format("truetype"),
+    /* Safari, Android, iOS */ url('./font/Azo-Sans-Bold/Azo-Sans-Bold.svg')
+      format("svg"); /* Legacy iOS */
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +42,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #131020;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +63,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign1 {
+  font-size: 16px;
+  color: #94AEBF;
+}
+
+.join1 {
+  font-size: 36px;
+  color:#B6FDBF;
+  
+}
+
+
+
+button {
+  color: White;
+  background-color: #ED1F34;
+  border-style: none;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Azo-sans', sans-serif;
+
+}
+
+button:active{
+  background-color: rgb(136, 16, 28);
+}
+
+input {
+  color: White;
+  background-color: #201D2C;
+  border-style: none;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  color: #94AEBF;
+}
+
+.font1 {
+  font-family: "Elaine", sans-serif;
+}
+
+label {
+  font-size: 12px;
+  color: #888888;
+}
+
+.bold {
+  font-family: 'Azo-sans', sans-serif;
 }
