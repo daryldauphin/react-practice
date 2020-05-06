@@ -30,7 +30,6 @@ const [currentFrame, setCurrentFrame] = useState(0)
         <input type="checkbox" id="scales" name="scales"
          checked>
         </input><label> I agree to receive information from <br /> Interactive Nerd in accordance with the following Privacy Policy.</label>
-        {currentFrame === 1 && }
         
         </div>
       </header>
