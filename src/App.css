@@ -71,6 +71,10 @@
   justify-content: space-between;
 }
 
+.flex2 {
+  max-width: 8em;
+}
+
 .sign1 {
   font-size: 16px;
   color: #94AEBF;
@@ -121,3 +125,27 @@ label {
 .bold {
   font-family: 'Azo-sans', sans-serif;
 }
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: trouble 0 1em 1em 0;
+  
+}
+
+#nameF {
+  width: 91px;
+  
+}
+.nameL {
+  width: 91px;
+  margin-left: 1em;
+}
+
+p { 
+  font-size: small;
+  margin-top: 5px;
+  color: #94AEBF;
+}
+
